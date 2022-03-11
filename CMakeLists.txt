@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-set(LEARN_LIBUV ${PROJECT_NAME})
-project(${PROJECT_NAME} C)
+project(learn_libuv LANGUAGES C)
 
 set(CMAKE_C_STANDARD 99)
 
